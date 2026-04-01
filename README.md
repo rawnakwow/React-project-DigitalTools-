@@ -1,16 +1,47 @@
-# React + Vite
+# DigiTools - Digital Platform 
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Description 
 
-Currently, two official plugins are available:
+A modern digital platform that allows creators and professionals to explore and purchase high-quality 
+digital assets with ease.
+It delivers a smooth, responsive experience with real-time cart management and intuitive UI interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+###  Live Demo
+[digitattools.netlify.app]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+###  Technologies Used
+*   **React.js** (Functional Components & Hooks)
+*   **Tailwind CSS** (Utility-first styling)
+*   **DaisyUI** (UI Component library)
+*   **React-Toastify** (Interactive notifications)
+*   **JSON** (Dynamic product data management)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+###  Key Features
+1.  **Dynamic Product Toggling:** Seamlessly switch between the **Premium Product Gallery** and the **User Cart** using a centralized state-driven toggle system.
+2.  **Smart Cart Management:** Add items to your cart with instant feedback, remove individual items, or clear the entire cart using the "Proceed to Checkout" functionality.
+3.  **Fully Responsive Design:** A mobile-first approach ensuring a beautiful and functional experience across smartphones, tablets, and desktops using CSS Grid and Flexbox.
+
+---
+
+###  Core Components
+*   **Navbar:** Real-time cart count tracking.
+*   **Product Cards:** Detailed cards featuring tags, price periods, and feature lists.
+*   **Interactive Cart:** Single-column layout with "Remove" and "Checkout" logic.
+*   **Toast Notifications:** Integrated `react-toastify` for all user actions (Add, Remove, Checkout).
+
+---
+
+### 📂 Installation & Setup
+1. Clone the repository: `git clone [ https://github.com/rawnakwow/React-project-DigitalTools-.git]`
+2. Install dependencies: `npm install`
+3. Run the project: `npm run dev`
+
+---
+*Created by [Rawnak]*
