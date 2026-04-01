@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Assistant Pro",
+    "description": "Create high-quality blog posts, emails, and social media content using advanced AI tools.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited content generation",
+      "Grammar and tone correction",
+      "SEO optimization tools",
+      "Supports 20+ languages"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Resume Builder Ultimate",
+    "description": "Design professional resumes and cover letters that pass ATS systems easily.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "100+ modern templates",
+      "ATS friendly format",
+      "PDF & Word export",
+      "Real-time preview"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Content Kit",
+    "description": "Plan, design, and schedule engaging posts for all social platforms.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Post scheduler",
+      "Content calendar",
+      "Hashtag generator",
+      "Analytics dashboard"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": 4,
+    "name": "Design Templates Pack",
+    "description": "Access a wide collection of UI, web, and marketing design templates.",
+    "price": 40,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "500+ templates",
+      "Figma & PSD files",
+      "Editable components",
+      "Commercial license"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and boost productivity with smart workflows.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Workflow automation",
+      "Task scheduling",
+      "API integrations",
+      "Drag & drop builder"
+    ],
+    "icon": "⚙️"
+  },
+  {
+    "id": 6,
+    "name": "Stock Assets Library",
+    "description": "Download premium images, videos, and icons for your projects.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10,000+ assets",
+      "HD images & videos",
+      "Royalty-free license",
+      "Regular updates"
+    ],
+    "icon": "🖼️"
+  },
+  {
+    "id": 7,
+    "name": "Developer Productivity Suite",
+    "description": "Essential tools and extensions to boost coding efficiency.",
+    "price": 35,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Code snippets library",
+      "Git integration",
+      "Performance tracking",
+      "Dark mode UI"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 8,
+    "name": "Email Marketing Pro",
+    "description": "Build, send, and analyze email campaigns with ease.",
+    "price": 22,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Drag & drop builder",
+      "Audience segmentation",
+      "Campaign analytics",
+      "Automation workflows"
+    ],
+    "icon": "📧"
+  }
+]
