@@ -1,5 +1,156 @@
 @import "tailwindcss";
-@plugin "daisyui";
 
 
+ 
 
+  :root {
+      --brand: #7C3AED;
+      --brand-dark: #5B21B6;
+      --brand-light: #EDE9FE;
+      --accent: #F59E0B;
+      --text-primary: #111827;
+      --text-secondary: #6B7280;
+      --bg: #FAFAFA;
+      --card-bg: #FFFFFF;
+      --border: #E5E7EB;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      margin: 0;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: 'Syne', sans-serif;
+    }
+
+    /* Toastify overrides */
+    .Toastify__toast { font-family: 'DM Sans', sans-serif; border-radius: 12px; }
+    .Toastify__toast--success { background: #7C3AED; color: white; }
+    .Toastify__toast--error { background: #EF4444; color: white; }
+    .Toastify__toast--info { background: #3B82F6; color: white; }
+    .Toastify__progress-bar { background: rgba(255,255,255,0.4); }
+
+    /* Navbar */
+    .navbar-custom {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    }
+
+    /* Hero gradient */
+    .hero-section {
+      background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 40%, #DDD6FE 100%);
+    }
+
+    /* Stats */
+    .stats-bar {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+    }
+
+    /* Card hover */
+    .product-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(124, 58, 237, 0.12);
+      border-color: var(--brand);
+    }
+
+    /* Tag chips */
+    .tag-popular { background: #FEF3C7; color: #92400E; }
+    .tag-new { background: #D1FAE5; color: #065F46; }
+    .tag-bestseller { background: #EDE9FE; color: #5B21B6; }
+    .tag-trending { background: #FEE2E2; color: #991B1B; }
+    .tag-featured { background: #DBEAFE; color: #1E40AF; }
+
+    /* Pricing */
+    .pricing-card {
+      border: 2px solid var(--border);
+      border-radius: 16px;
+      background: white;
+      transition: all 0.2s;
+    }
+    .pricing-card:hover { border-color: var(--brand); transform: translateY(-2px); }
+    .pricing-card.featured {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+      color: white;
+      border-color: var(--brand);
+      transform: scale(1.04);
+    }
+
+    /* Steps connector */
+    .step-connector {
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brand) 0%, #DDD6FE 100%);
+      margin: 0 16px;
+      margin-top: -24px;
+    }
+
+    /* Toggle buttons */
+    .toggle-btn {
+      padding: 8px 28px;
+      border-radius: 50px;
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 2px solid var(--brand);
+    }
+    .toggle-btn.active {
+      background: var(--brand);
+      color: white;
+    }
+    .toggle-btn.inactive {
+      background: transparent;
+      color: var(--brand);
+    }
+
+    /* Cart item */
+    .cart-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: white;
+      margin-bottom: 12px;
+    }
+
+    /* Footer */
+    .footer-section {
+      background: #111827;
+      color: #9CA3AF;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #F3F4F6; }
+    ::-webkit-scrollbar-thumb { background: #C4B5FD; border-radius: 3px; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-grid { grid-template-columns: 1fr !important; }
+      .pricing-grid { grid-template-columns: 1fr !important; }
+      .steps-row { flex-direction: column !important; align-items: center; }
+      .step-connector { display: none; }
+    }
+
+    @media (max-width: 1024px) {
+      .product-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    }
