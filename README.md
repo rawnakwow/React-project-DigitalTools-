@@ -12,6 +12,8 @@ It delivers a smooth, responsive experience with real-time cart management and i
 ###  Live Demo
 [digitattools.netlify.app]
 
+Digital-Tools-Platform.surge.sh
+
 ---
 
 ###  Technologies Used
