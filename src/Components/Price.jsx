@@ -62,4 +62,5 @@ const Price = () => {
     </section>
   )
 }
+
 export default Price
