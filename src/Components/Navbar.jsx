@@ -9,8 +9,7 @@ const Navbar = ({ cartCount }) => {
       <h1 className="text-xl text-purple-600 font-bold">
         DigiTools
       </h1>
-
-
+      
       <div className="flex items-center gap-6">
           
         <a href="#products" className="hover:text-black-600">Products</a>
