@@ -3,7 +3,7 @@ const ProductCards = ({ products, addToCart }) => {
     <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-4 mb-20">
       {products.map(product => (
         <div key={product.id} className="product-card p-6 flex flex-col relative">
-          {/* Tag badge */}
+        
           <span className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold uppercase ${product.tagType === 'popular' ? 'tag-popular' : 'tag-new'}`}>
             {product.tag}
           </span>

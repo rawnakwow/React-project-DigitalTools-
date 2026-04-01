@@ -14,7 +14,7 @@ const CTA_Section = () => {
           Join 50,000+ creators and professionals using DigiTools to automate their tasks and deliver better results, faster.
         </p>
 
-        {/* Action Buttons */}
+       
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <button className="bg-white text-purple-600 px-10 py-4 rounded-full font-black text-lg hover:bg-purple-50 transition-all shadow-xl active:scale-95">
             Get Started Now
